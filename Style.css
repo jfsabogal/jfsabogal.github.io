@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* EDIT: Change font if desired */
+    font-family: 'Lato', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
 }
