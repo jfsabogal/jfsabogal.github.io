@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>YOUR NAME</h1>  <!-- EDIT: Your name here -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm <span class="highlight">Your Name</span></h2>  <!-- EDIT: Your name -->
+            <p class="tagline">Urban Planner & Architect</p>  <!-- EDIT: Your profession -->
+            <p class="description">
+                <!-- EDIT: Your introduction paragraph -->
+                Brief description about yourself and what you do. 
+                This should be 2-3 sentences about your background and interests.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- EDIT: Your detailed bio -->
+                    <p>Write your detailed bio here. Include your background, education, 
+                    current position, and what drives you in your field.</p>
+                    
+                    <p>Add another paragraph about your skills, expertise, or interests.</p>
+                </div>
+                <div class="about-image">
+                    <!-- EDIT: Replace 'your-photo.jpg' with your photo filename -->
+                    <img src="images/your-photo.jpg" alt="Your Name">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <!-- EDIT: Add your experiences - duplicate this div for each job -->
+                <div class="experience-item">
+                    <h3>Job Title</h3>  <!-- EDIT: Your job title -->
+                    <h4>Company Name</h4>  <!-- EDIT: Company -->
+                    <p class="date">Month Year - Present</p>  <!-- EDIT: Dates -->
+                    <ul>
+                        <li>Key responsibility or achievement 1</li>  <!-- EDIT: Your responsibilities -->
+                        <li>Key responsibility or achievement 2</li>
+                        <li>Key responsibility or achievement 3</li>
+                    </ul>
+                </div>
+
+                <!-- Copy the experience-item div above for more positions -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- EDIT: Add your projects - duplicate this div for each project -->
+                <div class="project-card">
+                    <!-- EDIT: Replace with your project image -->
+                    <img src="images/project1.jpg" alt="Project Name">
+                    <div class="project-info">
+                        <h3>Project Title</h3>  <!-- EDIT: Project name -->
+                        <p>Brief description of the project and your role.</p>  <!-- EDIT: Description -->
+                        <div class="project-tags">
+                            <!-- EDIT: Add relevant tags -->
+                            <span class="tag">Tag1</span>
+                            <span class="tag">Tag2</span>
+                        </div>
+                        <!-- EDIT: Add project link -->
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Copy the project-card div above for more projects -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always open to discussing new opportunities and collaborations.</p>
+                <div class="contact-links">
+                    <!-- EDIT: Add your contact information -->
+                    <a href="mailto:your.email@example.com" class="contact-btn">
+                        📧 Email Me
+                    </a>
+                    <a href="https://linkedin.com/in/yourprofile" class="contact-btn" target="_blank">
+                        💼 LinkedIn
+                    </a>
+                    <a href="https://github.com/yourusername" class="contact-btn" target="_blank">
+                        💻 GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>  <!-- EDIT: Your name and year -->
+    </footer>
+</body>
+</html>
