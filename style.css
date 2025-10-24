@@ -55,7 +55,7 @@ nav {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
 }
 
 .logo h1 {
@@ -80,7 +80,7 @@ nav {
 
 /* ————— Hero Section ————— */
 #hero {
-    text-align: center;
+    text-align: left;
     padding: 6rem 2rem;
     background-color: var(--bg-alt);
     color: var(--primary-color);
@@ -130,7 +130,7 @@ section h2 {
     font-family: var(--font-heading);
     font-weight: var(--heading-weight);
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 2rem;
     color: var(--primary-color);
 }
@@ -195,7 +195,7 @@ section h2 {
 /* ————— Contact Section ————— */
 #contact {
     background-color: var(--bg-alt);
-    text-align: center;
+    text-align: left;
     padding: 4rem 2rem;
     color: var(--primary-color);
 }
@@ -222,7 +222,7 @@ section h2 {
 
 /* ————— Footer ————— */
 footer {
-    text-align: center;
+    text-align: left;
     padding: 2rem 1rem;
     background: var(--primary-color);
     color: var(--bg-light);
